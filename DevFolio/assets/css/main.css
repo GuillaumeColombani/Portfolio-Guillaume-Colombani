@@ -584,6 +584,70 @@ h6 {
 
 
 
+
+.skill-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-logo {
+  width: 60px; /* Ajustez cette taille selon le rendu désiré */
+  height: 60px;
+  object-fit: contain; /* Permet de bien afficher l'image sans déformation */
+  margin-right: 15px; /* Espace entre le logo et le texte */
+}
+
+.skill h3 {
+  margin: 0;
+}
+
+.skill p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+
+
+
+.bts-sio {
+  padding: 60px 0;
+}
+
+.bts-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.bts-item:hover {
+  transform: translateY(-5px);
+}
+
+.bts-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.bts h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.bts p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+
+
+
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
